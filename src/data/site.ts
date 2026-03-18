@@ -1,5 +1,14 @@
 export const projects = [
-  //TODO: ADD PUBLIC PROJECTS
+  {
+    id: "moodcast",
+    name: "Moodcast",
+    tagline: "A gentle weather themed wellbeing companion.",
+    status: "Available Soon",
+    description: "A free, customizable, and privacy-first mood tracker. No accounts or logins needed!",
+    accent: "from-pink-300/30 via-fuchsia-300/20 to-violet-300/20",
+    logo: "/projects/moodcast/moodcast-logo.png",
+    href: "/moodcast"
+  },
 ] as const;
 
 export const palette = {

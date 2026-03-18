@@ -4,6 +4,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import ScrollToTop from "./components/ScrollToTop";
+import MoodcastPage from "./pages/MoodcastPage";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
                 <Route index element={<HomePage />} />
                 <Route path="/" element={<HomePage />} />
                 <Route path="/index" element={<Navigate to="/" replace />} />
+                <Route path="/moodcast" element={<MoodcastPage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
